@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 main {
@@ -43,10 +43,6 @@ main {
 }
 
 .lista-notas ul {
-    list-style-type: none;
-}
-
-.lista-notas li {
     margin-bottom: 10px;
 }
 
@@ -71,9 +67,9 @@ main {
     margin-bottom: 10px;
 }
 
-footer {
+footer p {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 0.9em;
     color: #555;
 }
