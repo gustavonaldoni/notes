@@ -16,12 +16,22 @@ body {
 
 header h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    text-align: center;
+    margin-bottom: 10 px;
 }
 
 h1 {
     font-size: 2em;
     color: black;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 main {
@@ -78,3 +88,69 @@ a {
 li {
     margin-left: 5%
 }
+
+
+.citacao {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #00539b;
+    margin: 20px 0;
+    padding: 15px;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    font-size: 1em;
+}
+
+.citacao cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #333;
+    font-size: 0.95em;
+    text-align: right;
+}
+
+.figura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.figura img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #00539b;
+    padding: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.figura figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+}
+
+.artigo {
+    margin: 40px 0;
+}
+
+.artigo h1 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artigo .autor {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
